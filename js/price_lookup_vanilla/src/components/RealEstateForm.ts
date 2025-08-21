@@ -95,6 +95,7 @@ export class RealEstateForm {
                   <option value="namas">Namas</option>
                   <option value="butas">Butas</option>
                   <option value="kotedzas">Kotedžas</option>
+                  <option value="sklypas">Sklypas be namo</option>
                 </select>
               </div>
               
@@ -118,11 +119,11 @@ export class RealEstateForm {
                 <select id="condition" name="condition" class="form-control">
                   <option value="">Pasirinkite būklę</option>
                   <option value="naujai-renovuotas">Naujai renovuotas</option>
-                  <option value="1-metai">1 metai +</option>
-                  <option value="5-metai">5 metai +</option>
-                  <option value="10-metu">10 metų +</option>
-                  <option value="15-metu">15 metų +</option>
-                  <option value="20-metu">20 metų +</option>
+                  <option value="1">Neseniai renovuotas</option>
+                  <option value="5">Renovuota prieš 5 metus</option>
+                  <option value="10">Renovuota prieš 10 metų</option>
+                  <option value="15">Renovuota prieš 15 metų</option>
+                  <option value="20">Renovuota prieš 20 metų</option>
                   <option value="nerenavuotas">Nerenovuotas</option>
                 </select>
               </div>
