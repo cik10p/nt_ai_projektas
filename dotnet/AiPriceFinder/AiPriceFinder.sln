@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_AiPriceFinder", "Lambda_AiPriceFinder\Lambda_AiPriceFinder.csproj", "{69D8C47C-59FD-BD82-134D-8431EE0A49D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7616F06F-E88C-4D8F-93CE-18B386882696}
+	EndGlobalSection
+EndGlobal
