@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_AiPriceFinder", "Lambda_AiPriceFinder\Lambda_AiPriceFinder.csproj", "{69D8C47C-59FD-BD82-134D-8431EE0A49D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiPriceFinder.Test", "AiPriceFinder.Test\AiPriceFinder.Test.csproj", "{B192525A-0ACD-4CDE-9278-2EB023E4448E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69D8C47C-59FD-BD82-134D-8431EE0A49D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B192525A-0ACD-4CDE-9278-2EB023E4448E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B192525A-0ACD-4CDE-9278-2EB023E4448E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B192525A-0ACD-4CDE-9278-2EB023E4448E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B192525A-0ACD-4CDE-9278-2EB023E4448E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
