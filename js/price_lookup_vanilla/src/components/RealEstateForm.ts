@@ -406,6 +406,32 @@ export class RealEstateForm {
    * Simulate API call for price estimation
    */
   private async simulateApiCall(data: any): Promise<void> {
+    console.log('Simulating API call with data:', data);
+
+
+
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        // Simulate price calculation based on data
+        const basePrice = 100000
+        const area = parseInt(data.area) || 50
+        const pricePerSqm = basePrice / area
+        
+        // Store mock result
+        this.mockPriceEstimation = {
+          price: Math.round(pricePerSqm * area),
+          minPrice: Math.round(pricePerSqm * area * 0.9),
+          maxPrice: Math.round(pricePerSqm * area * 1.1)
+        }
+        
+        resolve()
+      }, 2000)
+    })
+  }
+
+  private async ApiCall(data: any): Promise<void> {
+    console.log('Simulating API call with data:', data);
+
     return new Promise((resolve) => {
       setTimeout(() => {
         // Simulate price calculation based on data
